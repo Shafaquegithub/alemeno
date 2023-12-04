@@ -1,0 +1,552 @@
+{
+  "courses": [
+    {
+      "id": 2,
+      "name": "Advanced JavaScript",
+      "instructor": "Jane Smith",
+      "description": "Dive deeper into JavaScript concepts and master advanced techniques.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://cdn.sanity.io/images/tlr8oxjg/production/9f15109746df254c5a030a7ba9239f8a4bb5dadb-1456x816.png?w=3840&q=100&fit=clip&auto=format",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Intermediate JavaScript knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Closures and Scope",
+          "content": "Understanding closures and scope in JavaScript."
+        },
+        {
+          "week": 2,
+          "topic": "Asynchronous JavaScript",
+          "content": "Handling asynchronous operations with callbacks, promises, and async/await."
+        }
+      ],
+      "students": [
+        {
+          "id": 201,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        },
+        {
+          "id": 202,
+          "name": "Diana Miller",
+          "email": "diana@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Web Development Bootcamp",
+      "instructor": "Alex Johnson",
+      "description": "Comprehensive course covering HTML, CSS, and JavaScript for web development.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Programming_code.jpg/800px-Programming_code.jpg",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+      "location": "Onsite",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "None"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to HTML",
+          "content": "Learning the basics of HTML structure."
+        },
+        {
+          "week": 2,
+          "topic": "Styling with CSS",
+          "content": "CSS fundamentals and styling techniques."
+        }
+      ],
+      "students": [
+        {
+          "id": 301,
+          "name": "Eva Martinez",
+          "email": "eva@example.com"
+        },
+        {
+          "id": 302,
+          "name": "Franklin Adams",
+          "email": "franklin@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Data Science Fundamentals",
+      "instructor": "Rachel Lee",
+      "description": "Introduction to data science and analysis.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.freecodecamp.org/news/content/images/2022/12/main-image.png",
+      "duration": "10 weeks",
+      "schedule": "Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic knowledge of statistics"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of data science and its applications."
+        },
+        {
+          "week": 2,
+          "topic": "Data Wrangling",
+          "content": "Data collection, cleaning, and preprocessing."
+        }
+      ],
+      "students": [
+        {
+          "id": 401,
+          "name": "Grace Turner",
+          "email": "grace@example.com"
+        },
+        {
+          "id": 402,
+          "name": "Henry Carter",
+          "email": "henry@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Machine Learning Foundations",
+      "instructor": "David Brown",
+      "description": "Introduction to machine learning algorithms and concepts.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/0*SPjH6EGSjLcMPv8Q.jpg",
+      "duration": "8 weeks",
+      "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic knowledge of Python"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of ML and its applications."
+        },
+        {
+          "week": 2,
+          "topic": "Linear Regression",
+          "content": "Understanding and implementing linear regression models."
+        }
+      ],
+      "students": [
+        {
+          "id": 501,
+          "name": "Isabella Moore",
+          "email": "isabella@example.com"
+        },
+        {
+          "id": 502,
+          "name": "Jack Wilson",
+          "email": "jack@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Python for Data Analysis",
+      "instructor": "Sophia Clark",
+      "description": "Learn Python programming for data manipulation and analysis.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/computer-coding.jpg",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic knowledge of programming"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Python Basics",
+          "content": "Introduction to Python syntax and basics."
+        },
+        {
+          "week": 2,
+          "topic": "Data Structures in Python",
+          "content": "Working with data structures like lists, dictionaries, and tuples."
+        }
+      ],
+      "students": [
+        {
+          "id": 601,
+          "name": "Katherine Hill",
+          "email": "katherine@example.com"
+        },
+        {
+          "id": 602,
+          "name": "Liam Rodriguez",
+          "email": "liam@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Frontend Web Development",
+      "instructor": "Oliver White",
+      "description": "Building modern web applications using HTML, CSS, and JavaScript.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://cdn.sanity.io/images/tlr8oxjg/production/1ca7b34a8d5308a03ae186dfe72caabce0327fe2-1456x816.png?w=3840&q=80&fit=clip&auto=format",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Onsite",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic understanding of web technologies"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to HTML & CSS",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Basics",
+          "content": "Basic JavaScript concepts and usage."
+        }
+      ],
+      "students": [
+        {
+          "id": 701,
+          "name": "Mia Green",
+          "email": "mia@example.com"
+        },
+        {
+          "id": 702,
+          "name": "Noah Martinez",
+          "email": "noah@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Cybersecurity Fundamentals",
+      "instructor": "Lucas Adams",
+      "description": "Basics of cybersecurity and protecting digital assets.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.onlc.com/blog/wp-content/uploads/2017/07/ONLC-2017-4.png",
+      "duration": "8 weeks",
+      "schedule": "Fridays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic computer knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cybersecurity",
+          "content": "Understanding the fundamentals of cybersecurity."
+        },
+        {
+          "week": 2,
+          "topic": "Network Security",
+          "content": "Protecting networks and preventing attacks."
+        }
+      ],
+      "students": [
+        {
+          "id": 801,
+          "name": "Olivia Taylor",
+          "email": "olivia@example.com"
+        },
+        {
+          "id": 802,
+          "name": "Peter Hernandez",
+          "email": "peter@example.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "UI/UX Design Essentials",
+      "instructor": "Ava Turner",
+      "description": "Fundamentals of user interface and user experience design.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.forbes.com/advisor/wp-content/uploads/2022/06/computer_programming.jpeg.jpg",
+      "duration": "6 weeks",
+      "schedule": "Saturdays, 2:00 PM - 4:00 PM",
+      "location": "Onsite",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "None"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to UI/UX Design",
+          "content": "Overview of design principles and concepts."
+        },
+        {
+          "week": 2,
+          "topic": "User Research",
+          "content": "Understanding user needs through research."
+        }
+      ],
+      "students": [
+        {
+          "id": 901,
+          "name": "Quinn Scott",
+          "email": "quinn@example.com"
+        },
+        {
+          "id": 902,
+          "name": "Ruby Watson",
+          "email": "ruby@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Digital Marketing Strategies",
+      "instructor": "Emma Garcia",
+      "description": "Exploring digital marketing techniques and strategies.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://training.polytropicservices.com/assets/img/programming-languages.jpg",
+      "duration": "8 weeks",
+      "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic marketing knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Digital Marketing",
+          "content": "Overview of digital marketing channels and tools."
+        },
+        {
+          "week": 2,
+          "topic": "Social Media Marketing",
+          "content": "Utilizing social media platforms for marketing."
+        }
+      ],
+      "students": [
+        {
+          "id": 1001,
+          "name": "Samuel Lee",
+          "email": "samuel@example.com"
+        },
+        {
+          "id": 1002,
+          "name": "Tara Robinson",
+          "email": "tara@example.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mobile App Design",
+      "instructor": "Christopher Brown",
+      "description": "Designing user-friendly and visually appealing mobile apps.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.springboard.com/blog/wp-content/uploads/2022/01/is-programming-hard-a-guide-to-getting-started-in-2022-scaled-1-scaled.jpeg",
+      "duration": "6 weeks",
+      "schedule": "Thursdays, 3:00 PM - 5:00 PM",
+      "location": "Onsite",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic design knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Understanding User Interfaces",
+          "content": "Fundamentals of UI in mobile app design."
+        },
+        {
+          "week": 2,
+          "topic": "Visual Design Principles",
+          "content": "Applying visual design concepts to mobile apps."
+        }
+      ],
+      "students": [
+        {
+          "id": 1101,
+          "name": "Uma Patel",
+          "email": "uma@example.com"
+        },
+        {
+          "id": 1102,
+          "name": "Victor Nguyen",
+          "email": "victor@example.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Cloud Computing Fundamentals",
+      "instructor": "Ethan Thompson",
+      "description": "Introduction to cloud computing and its applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Best-Programming-Languages-to-Start-Learning-Today.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic computer knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Cloud Infrastructure",
+          "content": "Understanding cloud infrastructure and services."
+        },
+        {
+          "week": 2,
+          "topic": "Cloud Security",
+          "content": "Ensuring security in cloud computing."
+        }
+      ],
+      "students": [
+        {
+          "id": 1201,
+          "name": "Wendy Davis",
+          "email": "wendy@example.com"
+        },
+        {
+          "id": 1202,
+          "name": "Xavier Garcia",
+          "email": "xavier@example.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Business Analytics",
+      "instructor": "Nora Adams",
+      "description": "Analyzing data to drive business decisions.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.theforage.com/blog/wp-content/uploads/2023/03/programming-skills-scaled.jpg",
+      "duration": "10 weeks",
+      "schedule": "Tuesdays and Fridays, 10:00 AM - 12:00 PM",
+      "location": "Onsite",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic knowledge of statistics"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Data Analysis Fundamentals",
+          "content": "Introduction to data analysis techniques."
+        },
+        {
+          "week": 2,
+          "topic": "Data Visualization",
+          "content": "Creating meaningful visualizations for data analysis."
+        }
+      ],
+      "students": [
+        {
+          "id": 1301,
+          "name": "Yara Khan",
+          "email": "yara@example.com"
+        },
+        {
+          "id": 1302,
+          "name": "Zachary Wright",
+          "email": "zachary@example.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Blockchain Essentials",
+      "instructor": "William Turner",
+      "description": "Understanding blockchain technology and its applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.techrepublic.com/wp-content/uploads/2022/07/top-ide-software-770x433.jpeg",
+      "duration": "6 weeks",
+      "schedule": "Saturdays, 11:00 AM - 1:00 PM",
+      "location": "Online",
+      "progress": "Incomplete",
+      "prerequisites": [
+        "Basic understanding of technology"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Blockchain Basics",
+          "content": "Fundamentals of blockchain technology."
+        },
+        {
+          "week": 2,
+          "topic": "Smart Contracts",
+          "content": "Exploring smart contracts and their implementation."
+        }
+      ],
+      "students": [
+        {
+          "id": 1401,
+          "name": "Aaron Hall",
+          "email": "aaron@example.com"
+        },
+        {
+          "id": 1402,
+          "name": "Bella King",
+          "email": "bella@example.com"
+        }
+      ]
+    }
+  ],
+  "student": [
+    {
+      "id": 13,
+      "name": "Business Analytics",
+      "instructor": "Nora Adams",
+      "description": "Analyzing data to drive business decisions.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.theforage.com/blog/wp-content/uploads/2023/03/programming-skills-scaled.jpg",
+      "duration": "10 weeks",
+      "schedule": "Tuesdays and Fridays, 10:00 AM - 12:00 PM",
+      "location": "Onsite",
+      "progress": "Completed",
+      "prerequisites": [
+        "Basic knowledge of statistics"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Data Analysis Fundamentals",
+          "content": "Introduction to data analysis techniques."
+        },
+        {
+          "week": 2,
+          "topic": "Data Visualization",
+          "content": "Creating meaningful visualizations for data analysis."
+        }
+      ],
+      "students": [
+        {
+          "id": 1301,
+          "name": "Yara Khan",
+          "email": "yara@example.com"
+        },
+        {
+          "id": 1302,
+          "name": "Zachary Wright",
+          "email": "zachary@example.com"
+        }
+      ]
+    }
+  ]
+}
